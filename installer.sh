@@ -62,6 +62,6 @@ sudo mysql mysql < mysql-user.sql
 wget https://nodejs.org/dist/v20.18.0/node-v20.18.0-linux-x64.tar.xz
 sudo mkdir -p /usr/local/lib/nodejs
 sudo tar -xJvf node-v20.18.0-linux-x64.tar.xz -C /usr/local/lib/nodejs
-sudo ln -s /usr/local/lib/nodejs/node-v20.18.0-linux-x64/bin/nodejs /usr/local/bin/nodejs
+sudo ln -s /usr/local/lib/nodejs/node-v20.18.0-linux-x64/bin/node /usr/local/bin/node
 sudo ln -s /usr/local/lib/nodejs/node-v20.18.0-linux-x64/bin/npm /usr/local/bin/npm
 sudo ln -s /usr/local/lib/nodejs/node-v20.18.0-linux-x64/bin/npx /usr/local/bin/npx
